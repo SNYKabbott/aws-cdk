@@ -12,7 +12,9 @@
     "pkglint": "pkglint -f",
     "package": "cdk-package",
     "build+test+package": "npm run build+test && npm run package",
-    "build+test": "npm run build && npm test"
+    "build+test": "npm run build && npm test",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "nyc": {
     "statements": 45,
@@ -33,7 +35,8 @@
     "fast-deep-equal": "^2.0.1",
     "source-map-support": "^0.5.12",
     "string-width": "^4.1.0",
-    "table": "^5.4.0"
+    "table": "^5.4.0",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@types/string-width": "^4.0.1",
@@ -55,5 +58,6 @@
   "engines": {
     "node": ">= 8.10.0"
   },
-  "stability": "experimental"
+  "stability": "experimental",
+  "snyk": true
 }
