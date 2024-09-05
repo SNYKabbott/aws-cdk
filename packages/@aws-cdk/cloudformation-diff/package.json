@@ -32,8 +32,8 @@
     "diff": "^4.0.1",
     "fast-deep-equal": "^2.0.1",
     "source-map-support": "^0.5.12",
-    "string-width": "^4.1.0",
-    "table": "^5.4.0"
+    "string-width": "^4.2.3",
+    "table": "^6.7.2"
   },
   "devDependencies": {
     "@types/string-width": "^4.0.1",
