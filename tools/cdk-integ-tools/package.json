@@ -39,7 +39,7 @@
     "@aws-cdk/cx-api": "^0.34.0",
     "aws-cdk": "^0.34.0",
     "fs-extra": "^8.0.1",
-    "yargs": "^13.2.4"
+    "yargs": "^17.6.0"
   },
   "keywords": [
     "aws",
