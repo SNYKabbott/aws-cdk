@@ -69,7 +69,7 @@
     "source-map-support": "^0.5.12",
     "table": "^5.4.0",
     "yaml": "^1.6.0",
-    "yargs": "^13.2.4"
+    "yargs": "^13.3.0"
   },
   "repository": {
     "url": "https://github.com/awslabs/aws-cdk.git",
