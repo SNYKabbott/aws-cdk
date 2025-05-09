@@ -68,7 +68,7 @@
     "semver": "^6.1.1",
     "source-map-support": "^0.5.12",
     "table": "^5.4.0",
-    "yaml": "^1.6.0",
+    "yaml": "^1.10.0",
     "yargs": "^13.2.4"
   },
   "repository": {
